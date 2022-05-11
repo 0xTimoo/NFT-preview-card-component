@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 20px; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    margin: 25px auto;
+    font-family: 'Inter',  Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    width: 375px;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+/* .container:hover {
+    color: aqua;
+} */
+
+h3:hover {
+    color: aqua;
+}
+
+#main-img {
+    width: 80%;
+    margin: 35px;
+    border-radius: 10px;
+}
+
+#main-img:hover {
+    color: aqua;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 15px 35px;
+    color: hsl(0, 0%, 100%);
+}
+
+p.primary {
+    margin: 0 0 15px 35px;
+    line-height: 2rem;
+    width: 75%;
+}
+
+.mini {
+    display: flex;
+    margin-left: 35px;
+}
+
+p#time {
+    padding-left: 110px;
+}
+
+p#wallet-value {
+    color: aqua;
+}
+p#wallet-value img {
+    padding-right: 5px;
+}
+
+p#time img{
+    padding-right: 5px;
+}
+
+
+.line {
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.creator {
+    margin: 15px 0;
+    display: flex;
+}
+
+.creator img{
+    width: 40px;
+    margin-left: 35px;    
+}
+
+.creator p{
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.creator p span {
+    color:hsl(0, 0%, 100%)
+}
+
+.creator p span:hover {
+    color: aqua;
+}
